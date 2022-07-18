@@ -1,7 +1,8 @@
 import React from "react";
 import "../hojas-de-estilo/Testimonio.css";
 
-// COMPOPNENTE HIJO, EXPORTACION NOMBRADA
+//ELEMENTO DEL COMPOPNENTE HIJO, EXPORTACION NOMBRADA: PERMITE EXPORTAR POR SEPARADO CADA ELEMENTO DEL COMPONENTE, Y ESTE ES IMPORTADO EXPLICITAMENTE CON SU NOMBRE
+//AL COMPONENTE PADRE
 export function Testimonio(props){
     return (
         <div className="contenedor-testimonio">
@@ -18,9 +19,9 @@ export function Testimonio(props){
     );
 };
 
-//exportacion por defecto
+//EXPORTACION POR DEFECTO: SOLO PERMITE EXPORTAR UN ELEMENTO DEL COMPONENTE
 //export default Testimonio;
 
 //plantillas literales = template strings
-// `` (comillas invertidas) sirven para escribir codigo javascript dentro de la cadena de caracteres, para reemplazar
+// `` (comillas invertidas) sirven para escribir codigo javascript dentro de la cadena de caracteres, para reemplazar valores fijos por PROPS (valores dinamicos)
 
