@@ -1,7 +1,7 @@
 import './App.css';
-//IMPORTACION NOMBRADA DEL COMPONENTE HIJO
+//IMPORTACION NOMBRADA ELEMENTO DEL COMPONENTE HIJO
 import {Testimonio} from "./componentes/Testimonio.jsx";
-
+//DE HABER SIDO UNA IMPORTACION DEFAULT SE VERÍA: import Testimonio from "./componentes/Testimonio";
 
 // COMPONENTE PRINCIPAL
 // IMPORTA Y RENDERIZA COMPONENTES HIJOS
