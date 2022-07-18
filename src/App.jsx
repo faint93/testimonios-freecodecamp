@@ -1,4 +1,5 @@
 import './App.css';
+//IMPORTACION NOMBRADA DEL COMPONENTE HIJO
 import {Testimonio} from "./componentes/Testimonio.jsx";
 
 
